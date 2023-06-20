@@ -18,6 +18,7 @@ namespace DataAccesLayer.Concrete
         public DbSet<Writer> Writers { get; set; }
         public DbSet<Message> messages { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<Admin> admins { get; set; }
 
 
 
