@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<h2>İstatistik</h2>
+
+
+<div class="btn-group">
+    <button type="button" disabled class="btn btn-danger"> <p> toplam kategori</p>@ViewBag.CategoryAdet </button>
+
+    <button type="button" disabled class="btn btn-success"> <p>Yazılım başlık Sayısı</p>   @ViewBag.YazilimHeading</button>
+    <button type="button" disabled class="btn btn-danger"><p>A içeren yazar</p>  @ViewBag.AicerenYazar</button>
+    <button type="button" disabled class="btn btn-success"> <p>en fazla başlığa sahip kategori </p>@ViewBag.catbas</button>
+    <button type="button" disabled class="btn btn-danger"> <p>Durum farkı</p>@ViewBag.Fark</button>
+</div>
