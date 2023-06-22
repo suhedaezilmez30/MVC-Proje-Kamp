@@ -15,6 +15,7 @@ namespace MVCUygulamam.Controllers
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
         // GET: AdminCategory
+        [Authorize(Roles ="b")]
         public ActionResult Index()
         {
             
